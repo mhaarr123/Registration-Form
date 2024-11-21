@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <div class="title">COLLEGE OF COMPUTING SCIENCE </div>
+            <div class="user-details">
+            <div class="input-box">
+                <span for="name">Name</span>
+                <input type="textbox" id="fname" name="fname" placeholder="Full Name" required>
+            </div>
+            <div class="input-box">
+                <span for="email"> Email</span>
+                <input type="email" name="email" id="mail" placeholder="Enter your Email" required> 
+                <span for="password">Password</span>
+                <input type="password" name="password" id="pswrd" placeholder="Enter your Password" required> 
+            </div>
+            <div class="column">
+                <div class="input-box">
+                    <label for="yrevel"> Year Level</label>
+                    <select name="yrlevel">
+                    <option>First Year</option>
+                    <option>Second Year</option>
+                    <option>Third Year</option>
+                    <option>Fourth Year</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span for="course">Course</span>
+                    <select name="course">
+                    <option>Bachelor of Science in Computer Science</option>
+                    <option>Bachelor of Science in Information of Technology</option>
+                    </select>   
+                </div>
+            <div class="input-box">
+                <span for="gender">Gender</span>
+                <select name="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Bisexual</option>
+                    <option>Gay</option>
+                    <option>Trans</option>
+                </select>  
+            </div>
+                <span for="address">Address</span>
+                <input type="textbox" id="address" placeholder="Enter your Address" required>
+            <div>
+            </div>
+            <button type="submit" class="styled-button">Submit</button>
+            </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
